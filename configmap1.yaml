@@ -4,6 +4,6 @@ metadata:
   name: configmap1
   labels:
     app: pingapp
-data:
-  CONFIG_LOCATION: "/mydata/config.json"
-  SECRETS_LOCATION: "/mysecrets/secret.json"
+data: 
+  CONFIG_LOCATION: /mydata/config.json
+  SECRETS_LOCATION: /mysecrets/secret.json
